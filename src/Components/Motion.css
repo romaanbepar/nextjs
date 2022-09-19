@@ -1,0 +1,27 @@
+ul{
+    text-align: left;
+    margin-bottom: 50px;
+    margin: auto;
+    width: 100px;
+    list-style: none;
+    
+}
+
+ul > li{
+    position: relative;
+margin-bottom: 20px;
+font-size: 16px;
+}
+
+ul > li::before{
+    content:"?";
+    position: absolute;
+    left:-10px;
+    color:black;
+
+
+}
+
+
+
+
